@@ -1,5 +1,18 @@
+#index{background-color: greenyellow;font-family: Comic Sans MS;}
+#about{background-color: rgb(0, 140, 255);font-family: Comic Sans MS;}
+#news{background-color: rgb(255, 136, 0);font-family: Comic Sans MS;}
 h1{text-align:center;
 
+}
+.navigace{background-color: rgb(0, 0, 0);
+          margin: 5px;
+          padding: 5px;
+          color: hotpink;
+          font-size: large;
+          font-weight: 900;
+          text-decoration: none;}
+.karta{
+      width: 250px;
 }
 .grid-container{ 
   display: grid;
@@ -9,11 +22,31 @@ background-color: #2196F3;
 padding: 10px;
 }
 .grid-item{
-  background-color: rgba(255, 255, 255, 0.8);
+
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+#g0{background-color: aqua;}
+#g1{background-color: aqua;}
+#g2{background-color:  brown;}
+#g3{background-color: pink;}
+#g4{background-color: yellow;}
+#g5{background-color: green;}
+.flex-container {
+  display: flex;
+  background-color: #2196F3;
+  flex-wrap:wrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-wrap:nowrap;
 }
 @media only screen and (max-width: 1000px) {
   .grid-container{ 
